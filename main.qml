@@ -13,7 +13,7 @@ Window {
         width: 600
         height: 300
         anchors.verticalCenter: parent.verticalCenter
-        anchors.verticalCenterOffset: -50
+        anchors.verticalCenterOffset: -75
         anchors.horizontalCenter: parent.horizontalCenter
         color: "#1ae004"
     }
@@ -48,6 +48,14 @@ Window {
         anchors.verticalCenterOffset: 170
         anchors.horizontalCenter: parent.horizontalCenter
         font.pixelSize: 30
+    }
+
+    ProgressBar {
+        width: 600
+        height: 10
+        anchors.verticalCenter: parent.verticalCenter
+        anchors.verticalCenterOffset: 100
+        anchors.horizontalCenter: parent.horizontalCenter
     }
 
     Button {
